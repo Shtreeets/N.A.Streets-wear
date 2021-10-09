@@ -1,6 +1,6 @@
     body
     {
-        backgrobtnd: #fff;
+        background: #e4e4e4;
         font-family: 'Open Sans', sans-serif;
         font-weight: 300;
         position: relative;
@@ -40,7 +40,7 @@ img
     {
        width: 100%;
        height: 100%;
-       background: rgba(0, 0, 0, 0.4);
+       background: #43434366;
        padding-top: 90px;
        padding-bottom: 90px;
     }  
@@ -188,6 +188,85 @@ img
         display: inline-block;
         margin-top: 0px;
     }
+
+
+#outer-clothing-home
+    {
+    background: url('../images/dssdczeccs-min_800x.png') no-repeat;
+    background-size: contain;
+    color: #fff;
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+    }
+#outer-clothing-home p
+    {
+        font-weight: 400;
+        font-style: italic;
+        line-height: 2em;
+    }
+#outer-clothing-home img
+    {
+        display: inline-block;
+        margin-top: 0px;
+        max-width: 700px;    
+    
+    }
+#shoes-home
+    {
+    background: url('../images/air-jordan-1-retro-high-lucky-green-w-2-1000.png') no-repeat;
+    background-size: 20%;
+    background-repeat: repeat;
+    color: #fff;
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+    }
+#shoes-home p
+    {
+        font-weight: 400;
+        font-style: italic;
+        line-height: 2em;
+    }
+#shoes-home img
+    {
+        display: inline-block;
+        margin-top: 0px;
+        max-width: 700px;    
+    
+    }
+#jeans-home
+    {
+    background: url('../images/M301J_000_108-891_010_2_1800x1800.png') no-repeat;
+    background-size: 20%;
+    background-repeat: repeat;
+    color: #fff;
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+    }
+#jeans-home p
+    {
+        font-weight: 400;
+        font-style: italic;
+        line-height: 2em;
+    }
+#jeans-home img
+    {
+        display: inline-block;
+        margin-top: 0px;
+        max-width: 700px;    
+    
+    }
+
+.sign-up
+    {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+        text-shadow: #000000 4px 4px 2px;
+    } 
 /* end home */
 
 /* start divider */
@@ -263,6 +342,8 @@ img
         text-align: center;
         margin-right: 20px;
     }
+
+
 /* end feature1 */
 
 /* start pricing */
@@ -322,7 +403,7 @@ img
         transition: all 0.3s ease;
     }
 #pricing .pricing .btn:hover {
-    background: #6a0700;
+    background: #b4645e;
     color: #fff;
 }
 
